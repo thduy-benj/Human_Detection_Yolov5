@@ -12,10 +12,10 @@ import paho.mqtt.client as mqtt_client
 from paho import mqtt
 
 model = YOLO("yolov5nu.pt")
-host = '470671450867417691dd41f92aef9cb6.s1.eu.hivemq.cloud'
+host = '*'
 port = 8883
-username = "hivemq.webclient.1714738779741"
-password = "!zm>.y14Z2BbuD5f<YNL"
+username = "*"
+password = "*"
 threshold = 0.8  # Ngưỡng chấp nhận để gửi ảnh (%)
 
 # Hàm gửi ảnh (lưu vào local và gửi qua mqtt)
